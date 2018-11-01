@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -38,27 +42,27 @@ header {
   padding-top: 116px;
 }
 
+.narrative {
+  font-family: Georgia;
+   font-size: 17px;
+   color: black;
+}
+
 .column {
   display: flex;
   flex-direction: column;
-  margin-right: 32px
+  margin-right: 32px;
 }
 
 .column.large {
   width: 630px;
-  height: 1200px;
-  padding-right: 20px;
-
 }
 
 .column.medium {
   width: 300px;
-  padding-right: 20px;
 }
 
 .column.small {
-  display: flex;
-  flex-direction: column;
   width: 240px;
 }
 
@@ -80,6 +84,7 @@ header {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  margin-top: 70px;
 }
 
 .camera-image {
@@ -90,6 +95,7 @@ header {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  margin-top: 48px;
 }
 
 .cat-image {
@@ -119,11 +125,16 @@ justify-content: space-between;
 .text-content {
   height: 250px;
 }
+
 .image-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+
+.FBI {
+  margin-top: 0;
 }
 
 .news-bites {
@@ -132,6 +143,7 @@ justify-content: space-between;
   text-align: center;
 
 }
+
 .bite {
   background-color: WhiteSmoke;
   font-family: Verdana;
@@ -141,6 +153,10 @@ justify-content: space-between;
   padding: 11px 20px;
   border-bottom: 1px solid black;
   text-align: left;
+}
+
+h2 {
+  font-size: 24px;
 }
 
 footer {
